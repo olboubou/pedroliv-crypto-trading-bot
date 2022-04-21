@@ -33,7 +33,7 @@ app.get('/', async(req, res) => {
   res.end("Pedro Oliv trading bot: " + JSON.stringify(fprices, null, 2));
 })
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
