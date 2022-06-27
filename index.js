@@ -16,10 +16,10 @@ const binance = new Binance().options({
 })
 
 const db = mysql.createConnection({
-  host: process.env.DATABASE_HOST,
-  user: process.env.DATABASE_USER,
-  password: process.env.DATABASE_PASSWORD,
-  database: process.env.DATABASE_NAME,
+  host: sql11.freesqldatabase.com,
+  user: sql11501919,
+  password: Nju7PD33bb,
+  database: sql11501919,
 })
 
 app.listen(process.env.PORT || port, () => {
