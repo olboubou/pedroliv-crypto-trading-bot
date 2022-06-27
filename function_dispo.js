@@ -1,5 +1,16 @@
+// var options = {
+//   'method': 'GET',
+//   'url': 'https://api.binance.com/sapi/v1/capital/config/getall?timestamp=1650369896000&signature=5510819d6a46dcf9be9bcbcf7922edc92d66f34e1d867a9f298b47a0b641c888',
+//   'headers': {
+//     'X-MBX-APIKEY': 'xiQdwrcjcpbaWRMHq9mkDgPNBq1CNneB1bUfvN5SiO893INqoK0e68KiGwkCjOBQ'
+//   }
+// };
+// request(options, function (error, response) {
+//   if (error) throw new Error(error);
+//   console.log(response.body);
+// });
 
-/ Getting latest price of a symbol
+// Getting latest price of a symbol
 // binance.prices(function (error, ticker) {
 //   console.log("prices()", ticker);
 //   console.log("Price of BNB: ", ticker.BNBBTC);
