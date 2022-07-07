@@ -1,5 +1,5 @@
-this.bitcoins_cours[0].valeur async
 historique d'operations
+bug database
 
 Empecher de vendre plus ou acheter plus que ce que l'on a
 Une saule table
