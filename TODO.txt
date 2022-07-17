@@ -1,6 +1,15 @@
-historique d'operations
 bug database
 
+historique d'operations
 Empecher de vendre plus ou acheter plus que ce que l'on a
-Une saule table
 refacto dans des composants / fichiers
+
+  const db = mysql.createConnection({
+    host: "sql11.freesqldatabase.com",
+    user: "sql11501919",
+    password: "Nju7PD33bb",
+    database: "sql11501919",
+  });
+
+
+  
