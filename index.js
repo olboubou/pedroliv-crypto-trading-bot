@@ -161,7 +161,7 @@ const save_all_in_db = async function () {
 
 async function runFunction() {
   const t = setInterval(async function () {
-    if (new Date().getMinutes() % 15 === 0) {
+    if (new Date().getMinutes() % 5 === 0) {
       const db = db_connection();
       console.log(new Date().getMinutes());
       await save_all_in_db();
@@ -169,7 +169,7 @@ async function runFunction() {
     } else {
       console.log(new Date().getMinutes());
     }
-  }, 240000);
+  }, 60000);
 }
 
 runFunction();
