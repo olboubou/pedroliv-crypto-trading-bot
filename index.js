@@ -169,7 +169,7 @@ async function runFunction() {
     } else {
       console.log(new Date().getMinutes());
     }
-  }, 60000);
+  }, 240000);
 }
 
 runFunction();
